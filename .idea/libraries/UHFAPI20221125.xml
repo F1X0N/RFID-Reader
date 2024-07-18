@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UHFAPI20221125">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/UHFAPI20221125.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,794 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				"preferredSize": &Dimension0 new java.awt.Dimension( 42, 42 )
+				"border": new javax.swing.border.TitledBorder( "Power" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "ANT1:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 15
+					"y": 25
+					"width": 40
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbAnt1Power"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 55
+					"y": 20
+					"width": 80
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbAnt2Power"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 80
+					"height": 30
+					"x": 190
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "ANT2:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 40
+					"height": 17
+					"x": 150
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbAnt3Power"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 30
+					"x": 55
+					"y": 55
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "ANT3:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 40
+					"height": 17
+					"x": 15
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbAnt4Power"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 80
+					"height": 30
+					"x": 190
+					"y": 55
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "ANT4:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 40
+					"height": 17
+					"x": 150
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetPower"
+					"text": "GET POWER"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetPowerActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 40
+					"y": 95
+					"width": 105
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetPoer"
+					"text": "SET POWER"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetPoerActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 165
+					"y": 95
+					"width": 110
+					"height": 30
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 15
+				"y": 10
+				"width": 325
+				"height": 140
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel2"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "Antenna" )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "cbANT1"
+					"text": "ANT1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 15
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "cbANT2"
+					"text": "ANT2"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 55
+					"height": 22
+					"x": 85
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "cbANT3"
+					"text": "ANT3"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 55
+					"height": 22
+					"x": 155
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "cbANT4"
+					"text": "ANT4"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 55
+					"height": 22
+					"x": 225
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetANT"
+					"text": "SET ANTENNA"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetANTActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 120
+					"height": 30
+					"x": 175
+					"y": 55
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetANT"
+					"text": "GET ANTENNA"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetANTActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 120
+					"height": 30
+					"x": 45
+					"y": 55
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 325
+				"height": 95
+				"x": 15
+				"y": 155
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel3"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "Frequency band" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Frequency band:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 105
+					"height": 17
+					"x": 10
+					"y": 35
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbFrequencyBand"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 190
+					"height": 30
+					"x": 125
+					"y": 30
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetFrequencyBand"
+					"text": "READ FREQUENCY"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetFrequencyBandActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 140
+					"height": 30
+					"x": 20
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetFrequencyBand"
+					"text": "SET FREQUENCY"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetFrequencyBandActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 135
+					"height": 30
+					"x": 170
+					"y": 65
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 325
+				"height": 110
+				"x": 15
+				"y": 260
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel5"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "Procotol" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "Protocol:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 70
+					"height": 17
+					"x": 20
+					"y": 35
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbProtocol"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 100
+					"y": 30
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetProtocol"
+					"text": "SET PROTOCOL"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetProtocolActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 135
+					"height": 30
+					"x": 160
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetProtocol"
+					"text": "GET PROTOCOL"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetProtocolActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 125
+					"height": 30
+					"x": 20
+					"y": 65
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 325
+				"height": 105
+				"x": 15
+				"y": 375
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel17"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "InventoryMode" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label22"
+					"text": "Mode:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 40
+					"height": 17
+					"x": 20
+					"y": 30
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbEPCAndTIDUserMode"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 235
+					"height": 30
+					"x": 55
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetEPCAndTIDUserMode"
+					"text": "GET MODE"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetEPCAndTIDUserModeActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 95
+					"height": 30
+					"x": 55
+					"y": 95
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetEPCAndTIDUserMode"
+					"text": "SET MODE"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetEPCAndTIDUserModeActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 95
+					"height": 30
+					"x": 175
+					"y": 95
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label23"
+					"text": "User Ptr:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 25
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tf_user_prt"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 105
+					"y": 60
+					"width": 60
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label24"
+					"text": "User Len:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 78
+					"height": 17
+					"x": 165
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tf_user_len"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 225
+					"y": 60
+					"width": 65
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 325
+				"height": 140
+				"x": 350
+				"y": 10
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel18"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "Gen2" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label25"
+					"text": "Session:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 17
+					"x": 10
+					"y": 30
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmb_Gen2_session"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 85
+					"height": 30
+					"x": 70
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label26"
+					"text": "Target"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 17
+					"x": 165
+					"y": 30
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmb_Gen2_target"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 85
+					"height": 30
+					"x": 215
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetGen2"
+					"text": "SET GEN2"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetGen2ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 95
+					"height": 30
+					"x": 175
+					"y": 70
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetGen2"
+					"text": "GET GEN2"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetGen2ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 95
+					"height": 30
+					"x": 45
+					"y": 70
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 325
+				"height": 115
+				"x": 350
+				"y": 160
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel19"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "Buzzer" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label27"
+					"text": "Buzzer:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 55
+					"height": 17
+					"x": 15
+					"y": 35
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "rbtn_Beep_On"
+					"text": "ON"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "rbtn_Beep_OnActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 75
+					"y": 35
+					"width": 50
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "rbtn_Beep_Off"
+					"text": "OFF"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "rbtn_Beep_OffActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 55
+					"height": 21
+					"x": 140
+					"y": 35
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetBeep"
+					"text": "GET BUZZER"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetBeepActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 105
+					"height": 30
+					"x": 40
+					"y": 85
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetBeep"
+					"text": "SET BUZZER"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetBeepActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 30
+					"x": 180
+					"y": 85
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 325
+				"height": 140
+				"x": 350
+				"y": 290
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel20"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "Local IP" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label28"
+					"text": "IP:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 30
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textFieldIP"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 90
+					"y": 15
+					"width": 245
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label29"
+					"text": "SubNetMask:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 5
+					"y": 50
+					"width": 85
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label30"
+					"text": "GateWay:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 15
+					"y": 80
+					"width": 60
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textFieldSubNetMask"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 90
+					"y": 45
+					"width": 245
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textFieldGateWay"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 90
+					"y": 75
+					"width": 245
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetLocal_IP"
+					"text": "GET IP"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetLocal_IPActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 85
+					"height": 30
+					"x": 85
+					"y": 145
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetLocal_IP"
+					"text": "SET IP"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetLocal_IPActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 80
+					"height": 30
+					"x": 205
+					"y": 145
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label33"
+					"text": "Port:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 45
+					"height": 17
+					"x": 30
+					"y": 115
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textFieldPort"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 245
+					"height": 30
+					"x": 90
+					"y": 110
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 380
+				"height": 190
+				"x": 710
+				"y": 15
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel21"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "DestinationIP" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label31"
+					"text": "IP:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 17
+					"x": 40
+					"y": 30
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textFieldDestinationIP"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 245
+					"height": 30
+					"x": 100
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label32"
+					"text": "Port:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 45
+					"height": 17
+					"x": 40
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textFieldDestinationPort"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 245
+					"height": 30
+					"x": 100
+					"y": 55
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetDestinationPort"
+					"text": "SET IP"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetDestinationPortActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 80
+					"height": 30
+					"x": 215
+					"y": 95
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetDestinationIP"
+					"text": "GET IP"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetDestinationIPActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 85
+					"height": 30
+					"x": 95
+					"y": 95
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 380
+				"height": 140
+				"x": 710
+				"y": 210
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel22"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "Working Mode" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label34"
+					"text": "Mode:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 17
+					"x": 10
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbWorkMode"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 235
+					"height": 30
+					"x": 70
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetWorkMode"
+					"text": "SET MODE"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetFrequencyModeActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 30
+					"x": 175
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetWorkMode"
+					"text": "GET MODE"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetFrequencyModeActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 30
+					"x": 50
+					"y": 100
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 325
+				"height": 160
+				"x": 350
+				"y": 435
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel23"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "Link" )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbRFLink"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 220
+					"height": 30
+					"x": 55
+					"y": 30
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Link:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 40
+					"height": 17
+					"x": 15
+					"y": 35
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetRFLink"
+					"text": "SET LINK"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetLinkActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 95
+					"height": 30
+					"x": 155
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetRFLink"
+					"text": "GET LINK"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetLinkActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 30
+					"x": 35
+					"y": 65
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 325
+				"height": 110
+				"x": 15
+				"y": 485
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel24"
+				"preferredSize": #Dimension0
+				"border": new javax.swing.border.TitledBorder( "GPIO" )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnSetGPIO"
+					"text": "SET"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSetGPIOActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 60
+					"height": 30
+					"x": 310
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbRelay"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 235
+					"height": 30
+					"x": 70
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label35"
+					"text": "Relay"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 55
+					"height": 17
+					"x": 25
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label36"
+					"text": "Input1:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 70
+					"height": 17
+					"x": 25
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label37"
+					"text": "Input2:"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 50
+					"height": 17
+					"x": 165
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGetGPIO"
+					"text": "GET"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGetGPIOActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 60
+					"height": 30
+					"x": 310
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbInput1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 75
+					"y": 60
+					"width": 85
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cmbInput2"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 215
+					"y": 60
+					"width": 88
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 380
+				"height": 100
+				"x": 710
+				"y": 355
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 1120, 750 )
+		} )
+	}
+}
