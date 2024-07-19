@@ -1,10 +1,7 @@
 com/uhf/form/ConfigForm.java
  com.uhf.form.ConfigForm
-com/uhf/form/InventoryForm.java
- com.uhf.form.InventoryForm
- com.uhf.form.InventoryForm$1
- com.uhf.form.InventoryForm$1$1
- com.uhf.form.InventoryForm$2
+com/uhf/utils/StringUtils.java
+ com.uhf.utils.StringUtils
 com/uhf/form/TemperatureForm.java
  com.uhf.form.TemperatureForm
 com/uhf/form/FirmwareUpgradeForm.java
@@ -17,11 +14,14 @@ com/uhf/form/ReadWriteForm.java
  com.uhf.form.ReadWriteForm$1
 com/uhf/form/UHFInfoForm.java
  com.uhf.form.UHFInfoForm
-com/uhf/model/InventoryTableModel.java
- com.uhf.model.InventoryTableModel
-com/uhf/utils/StringUtils.java
- com.uhf.utils.StringUtils
 com/uhf/form/LockKillForm.java
  com.uhf.form.LockKillForm
+com/uhf/form/InventoryForm.java
+ com.uhf.form.InventoryForm
+ com.uhf.form.InventoryForm$1
+ com.uhf.form.InventoryForm$1$1
+ com.uhf.form.InventoryForm$2
+com/uhf/model/InventoryTableModel.java
+ com.uhf.model.InventoryTableModel
 com/uhf/UHFMainForm.java
  com.uhf.UHFMainForm

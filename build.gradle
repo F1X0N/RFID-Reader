@@ -14,7 +14,7 @@ tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
 jar {
-    archiveFileName = 'Meu Build.jar'
+    archiveFileName = 'URA4Demo.jar'
     manifest {
         attributes 'Main-Class': 'com.uhf.UHFMainForm'
     }
@@ -23,6 +23,7 @@ jar {
     }
 }
 dependencies {
+    implementation 'org.postgresql:postgresql:42.7.3'
     implementation files('libs/UHFAPI20221125.jar')
     implementation files('libs/jna-5.4.0.jar')
     implementation files('libs/jna-platform-5.4.0.jar')
